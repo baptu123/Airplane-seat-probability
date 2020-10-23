@@ -6,7 +6,11 @@ Created on Sat Sep 12 13:19:41 2020
 """
 n = int(input())
 
-if n>1:
-    print(0.5)
+a = 0.5
+b=1
+if n==1:
+    print(b)
+if n==2:
+    print(a)
 else:
-    print(1.0)
+    print(1/n)
